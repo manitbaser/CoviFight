@@ -27,3 +27,5 @@ It is a website for doctors and government officials to update the status of a p
 The app generates heat maps with places where there are possible traces of the virus, so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently rather than imposing a complete lockdown of the nation.
 
 The app also generates a map with hotspots for what places have virus traces, so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently.
+
+Project Demo:https://youtu.be/kz78VzYkqjo
