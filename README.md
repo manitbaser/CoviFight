@@ -29,4 +29,5 @@ The app generates heat maps with places where there are possible traces of the v
 The app also generates a map with hotspots for what places have virus traces, so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently.
 
 Project Pitch:  https://youtu.be/kz78VzYkqjo
+
 Project Demo:   https://www.youtube.com/watch?v=4HPo3nUarWc
