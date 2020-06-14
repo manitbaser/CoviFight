@@ -1,31 +1,72 @@
 # CoviFight
 
 
-The virus has affected humanity in various ways, be it our economy, our freedom of movement and the loss of loved ones. Then how do we live on, comfortably and safely with this virus around?
 
-CoviFight alerts me about the risks of catching the virus of me if I have come in contact with these people within the past three weeks. It also informs the healthcare system accurately about the spread of infection.
+
+
+
+
+
+
+CoviFight showcases how the integration of Bluetooth with Social Networking Analysis makes contact tracing highly effective and the world can come to a working state of normalcy as early as possible.
+
+The virus has affected humanity in various ways, be it our economy, our freedom of movement, and the loss of loved ones. Then how do we live on, comfortably, and safely with this virus around? Even after the lockdown is over, there is a massive possibility that traces of the virus will remain, and it can spread again. We wanted to bring people back their mobility and keep them safe at the same time. We wanted people to know about their status while they leave their houses
 
 ![](Images/pic1.png)
 
-CoviFight is a three-tier system:
-1) user's app
-2) provider's app 
-3) Official's portal.
+Solution Brief Overview:
 
-While utilising Bluetooth and GPS of your phone, CoviFight makes sure that the confidentiality of every individual is secured and can not be compromised. Data is encrypted using a secret key, and no one can view it without your permission. It only traces the past data of positively tested patients. This way, CoviFight also meets the GDPR compliance. 
-By using Geo-fencing and machine learning, CoviFight predicts your chances of catching the infection so that you can take preventive measures.
+CoviFight is not just a contact tracing application. It is a 3-tier solution which:-
 
-#### Provider's app 
-This app is the key to the detection of infected areas, be it a vehicle or a workplace. This app is very similar to the user's app; the key difference being the accessibility of the stored data. It stores data about all the people who visited a store or travelled a bus.
+By using Machine Learning and Social Networking analysis, CoviFight alerts the users the risks of catching the virus if they have come in contact with an  infected person within the past three weeks.
+Identifies the public place or the transport mode, be it a bus, a metro, or a McDonald's restaurant, that needs sterilisation. No other application in the world is capable of doing so.
+It informs the medical system accurately about the spread of infection. The medical system rather than individuals handle data, and authenticity is maintained.
+It generates a map with hotspots for what places have virus traces so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently rather than having a complete lockdown of a country.   CoviFight does not even need to compare data between people, thus making computation very cheap and exponentially faster and efficient.
+It can be used in disaster management to understand the right victims and relief reaches all rightful beneficiaries( such as in the case of floods and storms).  
+We develop a three-tier app:
 
-Suppose MacDonald's installs CoviFight. It would store the information of all the customers they had for a day. If it had infected customers in the past 15 days, McDonald's would get alerted, and they can sanitize their store to keep their customers safe. The app collected the unique ids of all their customer, making it possible to backtrace and warn their customers.
+• A user's app • A provider's app • An official's portal.
+
+Provider's app:
 
 ![](Images/pic2.png)
 
-#### Official's portal 
-It is a website for doctors and government officials to update the status of a person. It facilitates the doctors and government officials to examine the situation by providing a graphical visualization of the analytics performed.
-The app generates heat maps with places where there are possible traces of the virus, so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently rather than imposing a complete lockdown of the nation.
 
-The app also generates a map with hotspots for what places have virus traces, so that people can prevent travelling at these places and authorities can sterilise or lockdown these places efficiently.
+A provider's app for aggregation points like shops, restaurants and public transport synchronizes with the nearby user app. This interface is the key to the detection of infection points, be it a stationary workplace or a moving vehicle. If a restaurant installed CoviFight and had an infected customer in the past 15 days, all the customers after the positive tested patient would get alerted, and hence the restaurant can be sterilized.
+
+Official's Portal/ Doc App:
+
+Only the medical system may update a person's status over the official's portal, and the authenticity of the app is maintained, hence preventing false positives or self-reporting, which might lead to falsification of records. No one else can manipulate the data. Hence, people can move around while being alerted about their status. They can stay away from the virus, and be free from the worry of their privacy maintenance at the same time.
+
+User's app
+
+
+
+For the general public.
+
+Uses Social Network Analysis to predict your chances of catching the virus, so that you can take preventive measures.
+Leverages only Bluetooth to keep a track of people in contact.
+Generates a map with hotspots. Data is masked, encrypted E2E and securely stored in the cloud. Data is shared with authorities after consent.
+If Contact tracing apps already exist:
+
+Even if you have a contact tracing application launched in a region, our second and third- tier may supplement the existing application. These tiers may add to the architectural ecosystem of the app without modifying the app at all. It creates a supplementary layer of the architecture of the existing contact tracing apps and creates an ecosystem. We create an environment where devices connect independently and irrespective of their running OS and the contact tracing app installed.
+
+Apple and Google Guidelines and restrictions:
+
+Tracking of aggregation points( stores and public transport) is a difficult task to perform. Tracking people who have access them is also a challenging task. Before it was feasible, though very complicated and requiring complex computation, these were feasible by geo- location and time stamping. But the recent guidelines issued by Google and Apple prohibit the use of these techniques, making indirect contact tracing infeasible. The fantastic thing is, our three-tier solution allows us to do so even while following the concerned guidelines.
+
+Privacy:
+
+While utilizing Bluetooth of your phone, CoviFight makes sure that the confidentiality and privacy of every individual are secured and can not be compromised. Data is encrypted using a secret key, and no one can view it without your permission. It only traces the past data of positively tested patients. This way, CoviFight also meets the GDPR compliance. Hence, we have made sure that the privacy of every individual is maintained and can not be compromised. The encryption algorithms meet the standards of the leading social networking apps existing in the market.
+
+Uniqueness from an existing product
+
+India’s contact tracing app, Aarogya Setu uses Bluetooth to detect people in contact and send geolocation data removing personal identifiers for creating heatmaps.
+
+Arogya setu store data on the mobile app, and it is only shared when the person is found positive. This is done to prevent accuracy breach. Our app, on the other hand, uses encryption for keeping the data secure. Significant advantages of storing encrypted data on the server are:
+It is proofed from general failure resulting in data loss. E.g. if someone uninstalls the app or phone/app gets some unseen internal error. The data is backed up on the cloud, and the privacy is also maintained. Local Storage of mobile is not used thus adding convenience at the user's end  
+The value of our solution after the crisis:
+
+• This application can be used for any contagious disease management. • It can be used in disaster management to understand the right victims and relief reaches all rightful beneficiaries( such as in the case of floods and storms). • It can be used by Providers such as McDonald's and Public transport systems to implement targeted location-based marketing complying with data collection practices.
 
 Video Concept: https://www.youtube.com/watch?v=U3PyaXU-TOI&t=5s
